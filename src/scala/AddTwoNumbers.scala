@@ -50,4 +50,7 @@ object AddTwoNumbers extends App {
         }
     }
 
+  val l5: ListNode = ListNode(9,ListNode(9,ListNode(9, ListNode(9,ListNode(9,ListNode(9,ListNode(9,ListNode(9,ListNode(9)))))))))
+  val l6: ListNode = ListNode(9,ListNode(9,ListNode(9,ListNode(9))))
+  val solution3: ListNode = addTwoNumbers(l5, l6)
 }
