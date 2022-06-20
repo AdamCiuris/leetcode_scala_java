@@ -21,7 +21,6 @@ public class AddTwoNumbers {
             this.val = val;
             this.next = next;
         }
-
         @Override
         public String toString() {
             return "ListNode{" +
@@ -30,7 +29,6 @@ public class AddTwoNumbers {
                     '}';
         }
     }
-
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode toReturn = new ListNode(0);
         ListNode curr, pointer1 = l1, pointer2 = l2;
