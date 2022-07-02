@@ -1,4 +1,3 @@
-package scala
 /*
 * Adam Ciuris
 * Scala 3
